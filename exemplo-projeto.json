@@ -1,0 +1,46 @@
+{
+    "name": "capes/edital",
+    "description": "Cadastro de Editais CAPES",
+    "license": "Software Proprietário",
+    "version": "dev",
+    "minimum-stability": "dev",
+    "keywords": [
+        "edital",
+        "capes"
+    ],
+    "homepage": "http://www.capes.gov.br/",
+    "version": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "capes/infra-zend-rest": "0.0.12",
+		"capes/negocio-corporativo": "2.0.12",
+		"capes/infra-zend-rest": "0.0.12",
+		"capes/contra-authentication": "1.1.3",
+        "doctrine/orm": "2.5.x-dev"
+    },
+
+    "require-dev" : {
+        "zendframework/zend-developer-tools": "1.0.0-BETA5",
+        "phpunit/phpunit": ">=4.0.0",
+        "squizlabs/PHP_CodeSniffer": " 1.5.5",
+        "stefano/stefano-db-profiler": "0.1.1",
+        "zendframework/zftool": "dev-master",
+        "zfcampus/zf-apigility-admin": "~1.0",
+        "zfcampus/zf-apigility-admin-ui": "~1.0",
+        "zfcampus/zf-development-mode": "~2.0"
+    },
+    
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "composer",
+            "url": "http://composer.capes.gov.br"
+        }
+    ],
+    
+    "config": {
+        "preferred-install": "dist"
+    }
+}

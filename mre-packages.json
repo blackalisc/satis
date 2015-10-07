@@ -1,0 +1,45 @@
+{
+    "name": "Servidor de dependencias MRE",
+    "homepage": "http://composer.itamaraty.gov.br",
+    "repositories": [
+        { 
+            "type": "composer", "url": "https://packagist.org"
+        },
+        { 
+            "packagist": false
+        }
+    ],
+    "archive": { 
+        "directory": "dist",
+        "skip-dev": false
+    },
+    "require": {
+        "zendframework/zendframework": ">=2.5.2",
+        "zendframework/zend-developer-tools": "dev-master",
+        "zendframework/zend-developer-tools": ">=0.1",
+        "zendframework/zftool": "dev-master",
+        "zendframework/zftool": ">=0.1",
+        "zfcampus/zf-apigility-skeleton": ">=1.3",
+        "zfcampus/zf-apigility-admin": ">=1.3.1",
+        "zfcampus/zf-deploy": ">=1.1",        
+        "zfcampus/zf-apigility": ">=1.2.1",
+        "zfcampus/zf-apigility-documentation": ">=1.1.0",
+        "zfcampus/zf-development-mode": ">=2.1.0",
+        "zfcampus/zf-apigility-doctrine": ">=1.0.2",
+        "zfcampus/zf-deploy": ">=1.1.0",
+        "zfr/zfr-cors": ">=1.2.0",
+        "phpunit/phpunit": "dev-master",
+        "phpunit/phpunit": ">=0.1",
+        "phpunit/phpunit-skeleton-generator": "dev-master",
+        "phpunit/phpunit-skeleton-generator": ">=0.1",
+        "leaseweb/doctrine-pdo-dblib":">=1.0.2",
+        "doctrine/annotations": ">=1.2.6",
+        "doctrine/doctrine-mongo-odm-module": "dev-master",
+        "doctrine/doctrine-orm-module": ">=0.1",
+        "doctrine/cache": ">=1.4.2",
+        "phpoffice/phpexcel": ">=1.8.0",
+	"zfcampus/zf-oauth2-doctrine": ">=1.0.1"
+    },
+	"require-all": false,
+    "require-dependencies": true
+}

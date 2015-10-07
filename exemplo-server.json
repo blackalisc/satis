@@ -1,0 +1,542 @@
+{
+    "archive": {
+        "directory": "dist",
+        "format": "tar",
+        "prefix-url": "http://composer.capes.gov.br",
+        "skip-dev": false
+    },
+    "homepage": "http://composer.capes.gov.br",
+
+    "name": "Capes",
+
+    "repositories": [
+	
+
+{
+    "trunk-path": "trunk/fontes/",
+    "branches-path": "branches",
+    "tags-path": "tags/fontes",
+    "type": "vcs",
+    "url": "http://svn.capes.gov.br/svn/CONTRA-AUTHENTICATION/"
+},
+
+{
+	"trunk-path": "trunk/fontes/main/",
+	"branches-path": "branches",
+	"tags-path": "tags/fontes",
+	"type": "vcs",
+	"url": "http://svn.capes.gov.br/svn/LAYOUT-SISTEMA/"
+},
+
+{
+	"trunk-path":"trunk/fontes/main",
+	"branches-path": "branches",
+	"tags-path": "tags/fontes",
+	"type": "vcs",
+	"url": "http://svn.capes.gov.br/svn/INFRA-ZEND-REST/"
+},
+
+{
+    "trunk-path": "trunk/fontes/main",
+    "branches-path": "branches",
+    "tags-path": "tags/fontes",
+    "type" : "vcs",
+    "url" : "http://svn.capes.gov.br/svn/SAP-CLIENT/"
+},
+{
+    "trunk-path": "trunk/fontes/main",
+    "branches-path": "branches",
+    "tags-path": "tags/fontes",
+    "type": "vcs",
+    "url": "http://svn.capes.gov.br/svn/INFRA-ZEND/"
+},
+{
+    "trunk-path": "trunk/fontes/main",
+    "branches-path": "branches",
+    "tags-path": "tags/fontes",
+    "type": "vcs",
+    "url": "http://svn.capes.gov.br/svn/INFRA-LAYOUT/"
+},
+{
+    "trunk-path": "trunk/fontes/main",
+    "branches-path": "branches",
+    "tags-path": "tags/fontes",
+    "type": "vcs",
+    "url": "http://svn.capes.gov.br/svn/NEGOCIO-CORPORATIVO/"
+},
+{
+    "trunk-path": "trunk/fontes/main",
+    "branches-path": "branches",
+    "tags-path": "tags/fontes",
+    "type": "vcs",
+    "url": "http://svn.capes.gov.br/svn/DASHBOARD-PROPONENTE/"
+},
+
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/lolcode/ZendMpdf.git"
+        },
+	{
+		"type" : "vcs",
+		"url" : "https://github.com/pdepend/pdepend.git"
+	},
+        {
+            "type": "vcs",
+            "url": "https://github.com/zendframework/ZendXml.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zendframework/zf2.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/Console.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/lexer.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/annotations.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/collections.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/cache.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/inflector.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/common.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/DoctrineModule.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/dbal.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/doctrine2.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/doctrine/DoctrineORMModule.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/Process.git"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/kriswallsmith/assetic.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/RWOverdijk/AssetManager.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/finwe/mpdf.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zendframework/ZendDeveloperTools.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bartko-s/stefano-db-profiler"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-text-template.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-invoker.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/exporter.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/diff.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/comparator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-token-stream.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/version.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/environment.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-file-iterator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-code-coverage.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/symfony/Yaml.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/php-timer.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sebastianbergmann/phpunit.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/squizlabs/PHP_CodeSniffer.git"
+        },
+	{
+	    "type": "vcs",
+            "url": "https://github.com/Ocramius/ProxyManager.git"
+        },
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/sebastianbergmann/phploc.git"
+	},
+	{
+		"type" : "vcs",
+		"url" : "https://github.com/squizlabs/PHP_CodeSniffer.git"
+	},
+	{
+		"type" : "vcs",
+		"url" : "https://github.com/pdepend/pdepend.git"
+	},
+	{
+		"type" : "vcs",
+		"url" : "https://github.com/sebastianbergmann/phpcpd.git"
+	},
+	{
+		"type" : "vcs",
+		"url" : " https://github.com/theseer/phpdox.git"
+	},
+	{
+		"type":"vcs",
+		"url":"https://github.com/phpmd/phpmd.git"
+	},
+	{
+		"type":"vcs",
+		"url":"https://github.com/sebastianbergmann/phpdcd.git"
+	},
+	{
+		"type":"vcs",
+		"url":"https://github.com/linkorb/jsmin-php.git"
+	},
+	{
+		"type":"vcs",
+		"url":"https://github.com/zendframework/ZFTool.git"
+	},
+	{
+		"type":"vcs",
+		"url":"https://github.com/zendframework/ZendDiagnostics.git"
+	},
+	{
+		"type":"vcs",
+		"url":"https://github.com/dejanb/stomp-php.git"
+	},
+	{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-apigility.git"
+
+	},
+
+	{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-apigility-admin.git"
+	},
+	{
+                "type" : "vcs",
+                "url" : "https://github.com/zfcampus/zf-hal.git"
+        },
+        {
+                "type" : "vcs",
+                "url" : "https://github.com/zfcampus/zf-development-mode.git"
+        },
+	{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-oauth2.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/apigility-documentation.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-doctrine-querybuilder.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-apigility-doctrine.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-console.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-apigility-admin-ui.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-content-negotiation.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-rest.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-mvc-auth.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-apigility-documentation-swagger.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-api-problem.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-content-validation.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-rpc.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-deploy.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-configuration.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-versioning.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-http-cache.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-deploy"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-configuration.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-versioning.git"
+},
+{
+		"type" : "vcs",
+		"url" : "https://github.com/zfcampus/zf-apigility-provider.git"
+},
+{
+	"type" : "vcs",
+	"url" : "https://github.com/bshaffer/oauth2-server-php.git"
+},
+
+{
+	"type" : "vcs",
+	"url" : "https://github.com/raykolbe/DOMPDFModule.git"
+},
+
+{
+	"type" : "vcs",
+	"url" : "https://github.com/dompdf/dompdf.git"
+},
+
+{
+	"type" : "vcs",
+	"url" : "https://github.com/PhenX/php-font-lib.git"
+},
+{
+	"type" : "vcs",
+	"url" : "https://github.com/zfcampus/zf-apigility-documentation.git"
+},
+{
+	"type" : "vcs",
+	"url" : "https://github.com/symfony/DependencyInjection.git"
+},
+{
+	"type" : "vcs",
+	"url" : "https://github.com/symfony/Filesystem.git"
+},
+{
+	"type" : "vcs",
+	"url" : "https://github.com/symfony/Config.git"
+},
+
+{
+        "type" : "vcs",
+        "url" : "https://github.com/sebastianbergmann/phploc.git"
+},
+{
+        "type" : "vcs",
+        "url" : "https://github.com/sebastianbergmann/finder-facade.git"
+},
+{
+        "type" : "vcs",
+        "url" : "https://github.com/sebastianbergmann/git.git"
+},
+{
+        "type" : "vcs",
+        "url" : "https://github.com/theseer/fDOMDocument.git"
+},
+{
+        "type" : "vcs",
+        "url" : "https://github.com/symfony/Finder.git"
+},
+{
+        "type" : "vcs",
+        "url" : "https://github.com/symfony/phpunit-bridge.git"
+},
+{
+	"type" : "vcs",
+	"url" : "https://github.com/phpmd/phpmd.git"
+},
+{
+	"type" : "vcs",
+	"url" : "https://github.com/doctrine/instantiator.git"
+}
+
+
+
+    ],
+    "require": {
+	"doctrine/instantiator" : "*",
+	"phpmd/phpmd" : "*",
+	"phploc/phploc" : "*",
+	"sebastian/finder-facade" : "*",
+	"sebastian/git" : "*",
+	"theseer/fdomdocument" : "*",
+	"symfony/finder" : "*",
+	"symfony/phpunit-bridge" : "*",
+	"symfony/config" : "*",
+	"symfony/filesystem" : "*",
+	"symfony/dependency-injection" : "*",
+	"pdepend/pdepend" : "*",
+	"zfcampus/zf-apigility-documentation" : "*",
+	"phenx/php-font-lib" : "*", 
+	"dompdf/dompdf" : "*",
+	"dino/dompdf-module" : "*",
+	"bshaffer/oauth2-server-php" : "*",
+	"zfcampus/zf-apigility-admin" : "*",
+        "zfcampus/zf-development-mode" : "*",
+        "zfcampus/zf-hal" : "*",
+        "zfcampus/zf-apigility" : "*",
+        "capes/infra-zend": "*",
+	"capes/sap-client": "*",
+        "capes/infra-layout": "*",
+	"capes/layout-sistema" : "*",
+        "capes/negocio-corporativo": "*",
+        "capes/aplicacao-dashboard-proponente": "*",
+        "capes/contra-authentication": "*",
+	"capes/infra-zend-rest": "*",
+        "lolcode/zend-mpdf": "*",
+        "zendframework/zendframework": "*",
+        "symfony/console": "*",
+        "zendframework/zendxml": "*",
+        "doctrine/lexer": "*",
+        "doctrine/annotations": "*",
+        "doctrine/collections": "*",
+        "doctrine/cache": "*",
+        "doctrine/inflector": "*",
+        "doctrine/common": "*",
+        "doctrine/doctrine-module": "*",
+        "doctrine/dbal": "*",
+        "doctrine/orm": "*",
+        "doctrine/doctrine-orm-module": "*",
+        "symfony/process": "*",
+        "kriswallsmith/assetic": "*",
+        "rwoverdijk/assetmanager": "*",
+        "mpdf/mpdf": "*",
+        "zendframework/zend-developer-tools": "*",
+        "stefano/stefano-db-profiler": "*",
+        "phpunit/php-text-template": "*",
+        "phpunit/phpunit-mock-objects": "*",
+        "phpunit/php-invoker": "*",
+        "sebastian/exporter": "*",
+        "sebastian/diff": "*",
+        "sebastian/comparator": "*",
+        "phpunit/php-token-stream": "*",
+        "sebastian/version": "*",
+        "sebastian/environment": "*",
+        "phpunit/php-file-iterator": "*",
+        "phpunit/php-code-coverage": "*",
+        "symfony/yaml": "*",
+        "phpunit/php-timer": "*",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+	"ocramius/proxy-manager" : "*",
+	"phploc/phploc" : "*",
+	"squizlabs/php_codesniffer": "*",
+	"pdepend/pdepend": "*",
+	"sebastian/phpcpd": "*",
+	"theseer/phpdox": "*",
+	"phpmd/phpmd": "*",
+	"sebastian/phpdcd": "*",
+	"linkorb/jsmin-php": "*",
+	"zendframework/zftool": "*",
+	"zendframework/zenddiagnostics" : "*",
+	"fusesource/stomp-php" : "*",
+		"zfcampus/zf-oauth2" : "*",
+		"zfcampus/apigility-documentation" : "*",		
+		"zfcampus/zf-doctrine-querybuilder" : "*",		
+		"zfcampus/zf-apigility-doctrine" : "*",		
+		"zfcampus/zf-console" : "*",		
+		"zfcampus/zf-apigility-admin-ui" : "*",		
+		"zfcampus/zf-content-negotiation" : "*",		
+		"zfcampus/zf-rest" : "*",		
+		"zfcampus/zf-mvc-auth" : "*",		
+		"zfcampus/zf-apigility-documentation-swagger" : "*",		
+		"zfcampus/zf-api-problem" : "*",		
+		"zfcampus/zf-content-validation" : "*",		
+		"zfcampus/zf-rpc" : "*",
+		"zfcampus/zf-deploy" : "*",
+		"zfcampus/zf-configuration" : "*",
+		"zfcampus/zf-versioning" : "*",
+		"zfcampus/zf-http-cache" : "*",
+		"zfcampus/zf-deploy" : "*",
+		"zfcampus/zf-configuration" : "*",
+		"zfcampus/zf-versioning" : "*",
+		"zfcampus/zf-apigility-provider" : "*"
+    }
+}
+
