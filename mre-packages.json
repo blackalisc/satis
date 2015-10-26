@@ -1,9 +1,22 @@
 {
-    "name": "Servidor de dependencias MRE",
+    "name": "Servidor de dependências MRE Composer",
     "homepage": "http://composer.itamaraty.gov.br",
     "repositories": [
         { 
             "type": "composer", "url": "https://packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@stash.itamaraty.local:7999/arquitetura/hefesto.git"
+				
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@stash.itamaraty.gov.br:7999/arquitetura/back-end.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@stash.itamaraty.local:7999/intratec-admin/back-end.git"
         },
         { 
             "packagist": false
@@ -38,8 +51,13 @@
         "doctrine/doctrine-orm-module": ">=0.1",
         "doctrine/cache": ">=1.4.2",
         "phpoffice/phpexcel": ">=1.8.0",
-	"zfcampus/zf-oauth2-doctrine": ">=1.0.1"
+	    "zfcampus/zf-oauth2-doctrine": ">=1.0.1",
+        "api-skeletons/zf-oauth2-doctrine": ">=1.0.1",
+        "zfcampus/zf-apigility-documentation-swagger": ">=1.0-dev",
+        "composer/installers": ">=1.0.0",
+		"itamaraty/intratec-admin": "dev-release/OP-5",
+		"itamaraty/back-end": ">=1.1.0"
     },
-	"require-all": false,
+    "require-all": false,
     "require-dependencies": true
 }
